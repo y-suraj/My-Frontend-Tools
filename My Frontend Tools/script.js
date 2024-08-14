@@ -4,7 +4,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
         const targetId = this.getAttribute('href').substring(1);
         const targetElement = document.getElementById(targetId);
-        const offset = 60; // Adjust this value to your needs
+        const offset = 20; // Adjust this value to your needs
 
         window.scrollTo({
             top: targetElement.offsetTop - offset,
