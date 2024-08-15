@@ -19,6 +19,13 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         // Add highlight class to the target element
         setTimeout(() => {
             targetElement.classList.add('highlight');
-        }, 500); // Delay to allow scroll to complete
+        }, 300); // Delay to allow scroll to complete
     });
+});
+
+
+let toolCards = document.querySelectorAll(".tool-card");
+
+toolCards.forEach((el, inded) => {
+    el.childNodes[1].childNodes[0].innerHTML += '<span class="material-symbols-outlined">open_in_new</span>';
 });
