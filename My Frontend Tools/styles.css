@@ -37,7 +37,7 @@ body {
     line-height: 1.6;
     color: white;
     margin: 0;
-    background-color: black;
+    background-color: rgb(10, 10, 10);
 }
 
 .head-foot-bg {
@@ -73,7 +73,7 @@ body {
     background: linear-gradient(to right, #E34C26 0%, #264DE4 50%, #F0DB4F 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1.5px #000000;
+    -webkit-text-stroke: 1.5px #e7d6ff;
     /* border: 1px solid; */
 }
 
@@ -178,7 +178,7 @@ h2 {
 }
 
 .tool-card {
-    background-color: #000000;
+    background-color: rgba(13, 13, 13, 0.835);
     border: 1px solid #7f8b96b1;
     border-radius: 8px;
     /* box-shadow: 0 4px 6px rgba(255, 237, 237, 0.244); */
@@ -224,6 +224,25 @@ a:visited {
 
 .tuf h3 a:hover {
     text-shadow: rgb(225, 29, 72) 1px 0 2px;
+}
+
+.web-des-crs {
+    border-color: #ceb255;
+    border-style: outset;
+}
+
+.web-des-crs:hover {
+    box-shadow: 0 4px 6px rgb(86, 10, 217);
+    border-color: #ceb255;
+    border-style: outset;
+}
+
+.web-des-crs h3 a {
+    color: #8a47ff;
+}
+
+.web-des-crs h3 a:hover {
+    text-shadow: #7f3df0 1px 0 2px;
 }
 
 footer {

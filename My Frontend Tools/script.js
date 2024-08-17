@@ -23,7 +23,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-
 let toolCards = document.querySelectorAll(".tool-card");
 
 toolCards.forEach((el, inded) => {
