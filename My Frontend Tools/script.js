@@ -25,6 +25,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 let toolCards = document.querySelectorAll(".tool-card");
 
-toolCards.forEach((el, inded) => {
-    el.childNodes[1].childNodes[0].innerHTML += '<span class="material-symbols-outlined">open_in_new</span>';
-});
+function applyNewTabIcons() {
+    toolCards.forEach((el) => {
+        el.childNodes[1].childNodes[0].innerHTML += '<span class="material-symbols-outlined">open_in_new</span>';
+    });
+}
+
+window.onload = applyNewTabIcons();
